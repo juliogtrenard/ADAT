@@ -9,9 +9,12 @@ public class VisualizarContenido {
         String nombre = args[0];
 
         try (BufferedReader br = new BufferedReader(new FileReader(nombre))) {
-            String linea;
-            while ((linea = br.readLine()) != null) {
+            String linea = br.readLine();
+            
+            while (linea != null) {
                 System.out.println(linea);
+                
+                linea = br.readLine();
             }
         } catch (IOException e) {
             System.out.println("Error de E/S de datos: " + e.getMessage());

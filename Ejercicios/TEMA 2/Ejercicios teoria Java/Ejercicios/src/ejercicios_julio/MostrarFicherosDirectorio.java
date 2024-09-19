@@ -16,7 +16,8 @@ public class MostrarFicherosDirectorio {
         String[] ficheros = directorio.list();
 
         if(ficheros != null && ficheros.length > 0) {
-            System.out.println("Archivos en el directorio " + nombre + ":");
+            System.out.println("Archivos: ");
+            
             for(String fichero : ficheros) {
                 System.out.println(fichero);
             }
