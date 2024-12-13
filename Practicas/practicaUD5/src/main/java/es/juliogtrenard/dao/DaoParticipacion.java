@@ -34,10 +34,12 @@ public class DaoParticipacion {
 	 * @return the modelo participacion
 	 */
 	public static ModeloParticipacion conseguirPorDeportistaEvento(ModeloDeportista dep,ModeloEvento e, ObjectContainer db) {
+		System.out.println("Buscando participación para deportista: " + dep.getNombre() + " y evento: " + e.getNombre());
 		ModeloParticipacion par=new ModeloParticipacion();
 		par.setDeportista(dep);
 		par.setEvento(e);
 		ObjectSet<ModeloParticipacion> set=db.queryByExample(par);
+		System.out.println("Resultado de la búsqueda: " + set.hasNext());
 		return set.hasNext() ? set.next() : null;
 	}
 	
