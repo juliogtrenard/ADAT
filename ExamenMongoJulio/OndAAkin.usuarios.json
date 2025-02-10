@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "65c123456789abcdef012301"
+  },
+  "nombre": "Juan Pérez",
+  "email": "juanperez@example.com",
+  "contraseña": "hashed_password",
+  "imagen_perfil": "data:image/png;base64,iVBORw0KGgoAAA..."
+},
+{
+  "_id": {
+    "$oid": "65c123456789abcdef012302"
+  },
+  "nombre": "María López",
+  "email": "marialopez@example.com",
+  "contraseña": "hashed_password",
+  "imagen_perfil": "data:image/png;base64,iVBORw0KGgoAAA..."
+},
+{
+  "_id": {
+    "$oid": "67a9df46261f0845aa579dff"
+  },
+  "nombre": "Julio Gonzalez",
+  "email": "juliogtrenard@gmail.com",
+  "contraseña": "sdfkdfkl842893*",
+  "imagen_perfil": "data:image/png;base64,iVBORw0KGgoAAA..."
+}]

@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "65c223456789abcdef022301"
+  },
+  "imagen": "data:image/png;base64,iVBORw0KGgoAAA...",
+  "usuario_id": {
+    "$oid": "65c123456789abcdef012301"
+  },
+  "fecha": {
+    "$date": "2024-02-10T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a9dfaf261f0845aa579e00"
+  },
+  "imagen": "data:image/png;base64,iVBORw0KGgoAAA...",
+  "usuario_id": {
+    "$oid": "67a9df46261f0845aa579dff"
+  },
+  "fecha": {
+    "$date": "2025-02-10T11:14:55.932Z"
+  }
+}]

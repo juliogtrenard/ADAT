@@ -1,0 +1,75 @@
+[{
+  "_id": {
+    "$oid": "65c323456789abcdef032301"
+  },
+  "imagen_id": {
+    "$oid": "65c223456789abcdef022301"
+  },
+  "puntos": {
+    "x1": 10.5,
+    "y1": 20.3,
+    "x2": 15,
+    "y2": 25.8,
+    "x3": 12.7,
+    "y3": 18.2,
+    "x4": 19.6,
+    "y4": 23.4
+  },
+  "categoria": "objeto_detectado",
+  "confiabilidad": 0.95,
+  "usuario_id": {
+    "$oid": "65c123456789abcdef012301"
+  },
+  "fecha": {
+    "$date": "2024-02-10T12:15:00.000Z"
+  },
+  "tipo": "manual"
+},
+{
+  "_id": {
+    "$oid": "67a9dfc3261f0845aa579e01"
+  },
+  "imagen_id": {
+    "$oid": "67a9dfaf261f0845aa579e00"
+  },
+  "categoria": "persona_detectada",
+  "confiabilidad": 1,
+  "usuario_id": {
+    "$oid": "67a9df46261f0845aa579dff"
+  },
+  "fecha": {
+    "$date": "2025-02-10T11:15:15.524Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a9dfc6261f0845aa579e02"
+  },
+  "imagen_id": {
+    "$oid": "67a9dfaf261f0845aa579e00"
+  },
+  "categoria": "persona_detectada",
+  "confiabilidad": 0,
+  "usuario_id": {
+    "$oid": "67a9df46261f0845aa579dff"
+  },
+  "fecha": {
+    "$date": "2025-02-10T11:15:18.992Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a9dfc9261f0845aa579e03"
+  },
+  "imagen_id": {
+    "$oid": "67a9dfaf261f0845aa579e00"
+  },
+  "categoria": "persona_detectada",
+  "confiabilidad": 1,
+  "usuario_id": {
+    "$oid": "67a9df46261f0845aa579dff"
+  },
+  "fecha": {
+    "$date": "2025-02-10T11:15:21.148Z"
+  }
+}]
